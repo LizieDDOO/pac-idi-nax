@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid red;
+}
+.pac {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #F4B915;
+    border-left: 60px solid #F4B915;
+    border-bottom: 60px solid #F4B915;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.pac:hover{
+    width: 100px;
+    height: 100px;
+    border-top: 60px solid purple;
+    border-left: 60px solid purple;
+    border-bottom: 60px solid purple;
+    border-radius: 1px;
+    
+}
+
+.krug {
+
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.glaz{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 380px;
+    margin-bottom: 60px;
+}
+.krug:hover{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 1px;
+}
